@@ -6,10 +6,10 @@ module "rg" {
 }
 
 
-module "rg100" {
+module "rg200" {
   source = "../modules/azurerm_resource_group"
 
-  name-rg     = "todo-rg100"
+  name-rg     = "todo-rg200"
   location-rg = "uk south"
   
 }
