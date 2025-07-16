@@ -1,0 +1,20 @@
+variable "name-nic" {}
+variable "location-nic" {}
+variable "resource_group_name-nic" {}
+variable "name-vm" {}
+variable "resource_group_name-vm" {}
+variable "location-vm" {}
+variable "size-vm" {}
+variable "image_publisher" {}
+variable "image_offer" {}
+variable "image_sku" {}
+variable "image_version" {}
+
+variable "frontend_subnet_name" {}
+variable "vnet_name" {}
+variable "resource_group_name" {}
+variable "frontend_ip_name" {}
+variable "name_kv" {}
+variable "resource_group_name_kv" {}
+variable "secret_name_username" {}
+variable "secret_name_password" {}
