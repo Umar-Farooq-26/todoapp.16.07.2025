@@ -11,6 +11,8 @@ module "rg200" {
 
   name-rg     = "todo-rg200"
   location-rg = "uk south"
+  
+  
 }
 
 module "rg100" {
