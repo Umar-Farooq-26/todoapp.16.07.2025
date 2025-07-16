@@ -6,6 +6,15 @@ module "rg" {
 }
 
 
+module "rg200" {
+  source = "../modules/azurerm_resource_group"
+
+  name-rg     = "todo-rg200"
+  location-rg = "uk south"
+  
+  
+}
+
 module "rg100" {
   source = "../modules/azurerm_resource_group"
 
