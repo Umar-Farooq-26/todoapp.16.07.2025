@@ -11,6 +11,13 @@ module "rg200" {
 
   name-rg     = "todo-rg200"
   location-rg = "uk south"
+}
+
+module "rg100" {
+  source = "../modules/azurerm_resource_group"
+
+  name-rg     = "todo-rg100"
+  location-rg = "uk south"
   
 }
 
