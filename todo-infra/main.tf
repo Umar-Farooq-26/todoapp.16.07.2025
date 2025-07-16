@@ -5,11 +5,13 @@ module "rg" {
   location-rg = "uk south"
 }
 
-module "rg1" {
+
+module "rg100" {
   source = "../modules/azurerm_resource_group"
 
-  name-rg     = "todo-rg1"
+  name-rg     = "todo-rg100"
   location-rg = "uk south"
+  
 }
 
 module "vnet" {
